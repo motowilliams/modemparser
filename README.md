@@ -5,10 +5,15 @@ Simple python parser to scrape the ARRIS TM822G DOCSIS 3.0 Modem internal web se
 
 To execute the script run the following:
 
+Setup
 <pre>
-1. virtualenv ENV
-2. pip install -r requirements.txt
-3. source ENV/bin/activate
-4. python htmlparse.py
+virtualenv ENV
+source ENV/bin/activate
+pip install -r requirements.txt
+</pre>
+
+Execute
+<pre>
+python htmlparse.py
 </pre>
 
